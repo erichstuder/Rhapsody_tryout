@@ -1,0 +1,5 @@
+- use Note for commenting intead of e.g. Comment
+  - reason: Notes don't show up in the browser and thus won't clutter your component tree.
+- Flowchart
+  - use Action with "return" instead of Activity Final
+    - reason: Action shows what is returned and thus is more readable.
