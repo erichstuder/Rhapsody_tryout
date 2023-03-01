@@ -12,33 +12,220 @@
 			<_id type="a">GUID 2f693538-f4ef-4727-8afd-3f48e63d5bd7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<Annotations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Annotations>
-			<_modifiedTimeWeak type="a">3.1.2023::5:30:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.1.2023::5:30:57</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">3.1.2023::5:30:57</weakCGTime>
-			<strongCGTime type="a">3.1.2023::5:29:8</strongCGTime>
+			<_modifiedTimeWeak type="a">3.1.2023::19:20:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:20:22</_modifiedTime>
+			<_lastID type="a">9</_lastID>
+			<weakCGTime type="a">3.1.2023::19:20:22</weakCGTime>
+			<strongCGTime type="a">3.1.2023::19:18:9</strongCGTime>
 			<_defaultComposite type="s">GUID 1a42ef45-ca7f-4ba1-a020-3de58ea60ec8</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">3.1.2023::5:30:57</_configurationRelatedTime>
 			<AggregatesList type="e">
+				<value>GUID d90d352b-6348-4eb1-bf8f-d7668c4a3eff</value>
+				<value>GUID a063a623-87fb-4de4-835d-9cfc9c082b3e</value>
+				<value>GUID 4d50aaee-93ef-45d2-9912-77920ecd5f1b</value>
+				<value>GUID 167e6c40-273d-43bb-9e46-1457479705cc</value>
+				<value>GUID 0eae4f39-77ea-418f-8174-9ba1d8478adb</value>
 				<value>GUID 1a42ef45-ca7f-4ba1-a020-3de58ea60ec8</value>
 				<value>GUID 0ea52d2d-8d50-45db-ae0d-9d39bed62475</value>
 				<value>GUID 76fe4354-2ba9-46fb-b439-e62d3fca6d87</value>
 			</AggregatesList>
 		</ISubsystem>
+		<INode type="e">
+			<_id type="a">GUID d90d352b-6348-4eb1-bf8f-d7668c4a3eff</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">node_4</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:20:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:20:22</_modifiedTime>
+			<AggregatesList type="e">
+				<value>GUID 83098f62-3f43-43df-9b56-557923c5ed71</value>
+				<value>GUID 684956fc-c861-46f1-9458-a028458a80f7</value>
+				<value>GUID eb600a12-bde5-4b48-b556-422b463ecfcb</value>
+			</AggregatesList>
+		</INode>
+		<IDependency type="e">
+			<_id type="a">GUID 83098f62-3f43-43df-9b56-557923c5ed71</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">node_6</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:19:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:19:9</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">INode</_hm2Class>
+					<_hid type="a">GUID 4d50aaee-93ef-45d2-9912-77920ecd5f1b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">INode</_hm2Class>
+					<_hid type="a">GUID d90d352b-6348-4eb1-bf8f-d7668c4a3eff</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IComponentInstance type="e">
+			<_id type="a">GUID 684956fc-c861-46f1-9458-a028458a80f7</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">componentinstance_0</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:20:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:20:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<AggregatesList type="e">
+				<value>GUID b45746b2-d47e-463c-80c3-280134b23e77</value>
+			</AggregatesList>
+		</IComponentInstance>
+		<IDependency type="e">
+			<_id type="a">GUID b45746b2-d47e-463c-80c3-280134b23e77</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">node_6</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:20:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:20:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">INode</_hm2Class>
+					<_hid type="a">GUID 4d50aaee-93ef-45d2-9912-77920ecd5f1b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IComponentInstance</_hm2Class>
+					<_hid type="a">GUID 684956fc-c861-46f1-9458-a028458a80f7</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IComponentInstance type="e">
+			<_id type="a">GUID eb600a12-bde5-4b48-b556-422b463ecfcb</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">componentinstance_1</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:17:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:12:3</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+		</IComponentInstance>
+		<IInformationFlow type="e">
+			<_id type="a">GUID a063a623-87fb-4de4-835d-9cfc9c082b3e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">componentinstance_0_componentinstance_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:25:50</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IPart</_hm2Class>
+							<_hid type="a">GUID fbe40f3b-c408-438c-a613-f4f8e79f6158</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IComponentInstance</_hm2Class>
+					<_hid type="a">GUID 684956fc-c861-46f1-9458-a028458a80f7</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IComponentInstance</_hm2Class>
+					<_hid type="a">GUID eb600a12-bde5-4b48-b556-422b463ecfcb</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+		</IInformationFlow>
+		<INode type="e">
+			<_id type="a">GUID 4d50aaee-93ef-45d2-9912-77920ecd5f1b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">node_6</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:19:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:19:54</_modifiedTime>
+			<AggregatesList type="e">
+				<value>GUID 23f25e2f-78b6-45ae-b9a7-60690e1dc7d1</value>
+				<value>GUID 4325f2e0-8220-4e3c-b9c1-5c2fa5384b26</value>
+			</AggregatesList>
+		</INode>
+		<IDependency type="e">
+			<_id type="a">GUID 23f25e2f-78b6-45ae-b9a7-60690e1dc7d1</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">node_4</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:18:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:18:30</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">INode</_hm2Class>
+					<_hid type="a">GUID d90d352b-6348-4eb1-bf8f-d7668c4a3eff</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">INode</_hm2Class>
+					<_hid type="a">GUID 4d50aaee-93ef-45d2-9912-77920ecd5f1b</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IComponentInstance type="e">
+			<_id type="a">GUID 4325f2e0-8220-4e3c-b9c1-5c2fa5384b26</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">componentinstance_0</_name>
+			<_modifiedTimeWeak type="a">3.1.2023::19:19:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:19:54</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+		</IComponentInstance>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 167e6c40-273d-43bb-9e46-1457479705cc</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">node_4_node_6</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:18:42</_modifiedTime>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">INode</_hm2Class>
+					<_hid type="a">GUID d90d352b-6348-4eb1-bf8f-d7668c4a3eff</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">INode</_hm2Class>
+					<_hid type="a">GUID 4d50aaee-93ef-45d2-9912-77920ecd5f1b</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+		</IInformationFlow>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 0eae4f39-77ea-418f-8174-9ba1d8478adb</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">componentinstance_0_componentinstance_0</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2023::19:20:9</_modifiedTime>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IComponentInstance</_hm2Class>
+					<_hid type="a">GUID 684956fc-c861-46f1-9458-a028458a80f7</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IComponentInstance</_hm2Class>
+					<_hid type="a">GUID 4325f2e0-8220-4e3c-b9c1-5c2fa5384b26</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+		</IInformationFlow>
 		<IClass type="e">
 			<_id type="a">GUID 1a42ef45-ca7f-4ba1-a020-3de58ea60ec8</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">3.1.2023::5:29:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.1.2023::19:17:6</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.1.2023::5:29:8</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">3.1.2023::5:29:8</weakCGTime>
-			<strongCGTime type="a">2.26.2023::15:44:16</strongCGTime>
+			<weakCGTime type="a">3.1.2023::19:17:6</weakCGTime>
+			<strongCGTime type="a">3.1.2023::19:17:6</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1309,7 +1496,7 @@
 			<_id type="a">GUID 0ea52d2d-8d50-45db-ae0d-9d39bed62475</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">class_0</_name>
-			<_modifiedTimeWeak type="a">2.26.2023::20:5:48</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.1.2023::19:17:6</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1319,8 +1506,8 @@
 			</_theMainDiagram>
 			<_modifiedTime type="a">2.26.2023::20:2:15</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.26.2023::20:5:48</weakCGTime>
-			<strongCGTime type="a">2.26.2023::15:44:16</strongCGTime>
+			<weakCGTime type="a">3.1.2023::19:17:6</weakCGTime>
+			<strongCGTime type="a">3.1.2023::19:17:6</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStateChart</_hm2Class>
@@ -2285,7 +2472,7 @@
 			<_id type="a">GUID 76fe4354-2ba9-46fb-b439-e62d3fca6d87</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">class_3</_name>
-			<_modifiedTimeWeak type="a">3.1.2023::5:29:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.1.2023::19:17:6</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
@@ -2294,16 +2481,12 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">3.1.2023::5:29:8</_modifiedTime>
-			<weakCGTime type="a">3.1.2023::5:29:8</weakCGTime>
-			<strongCGTime type="a">3.1.2023::5:27:42</strongCGTime>
+			<weakCGTime type="a">3.1.2023::19:17:6</weakCGTime>
+			<strongCGTime type="a">3.1.2023::19:17:6</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
 		
